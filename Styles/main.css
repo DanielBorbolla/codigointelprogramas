@@ -1,0 +1,231 @@
+.index_body {
+  text-align: center;
+}
+.index_title {
+  margin-top: 25px;
+}
+
+.compania-btn {
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.4s;
+  margin: 0.5em;
+  overflow: hidden;
+  user-select: none;
+}
+
+.compania-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 0 0 #8f9c9d, 0 -4px 0 0 #8f9c9d, 4px 0 0 0 #8f9c9d,
+    -4px 0 0 0 #8f9c9d;
+}
+.compania-btn:hover {
+  transform: scale(1.1);
+}
+.compania-btn img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.25s ease-in-out;
+}
+
+.contenedor_empresas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+.input_matriz {
+  padding-right: 20px;
+}
+
+.drop_matriz {
+  display: flex;
+  align-items: center;
+}
+
+.label_matriz {
+  font-family: Ubuntu, sans-serif;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+#header {
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background-color: rgba(26, 26, 72, 0.5);
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+header > .logo {
+  color: #fff;
+  text-align: left;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  width: 260px;
+  background-color: #16a085;
+  padding: 0.5em 2em;
+  align-items: center;
+}
+header > .logo img {
+  border-radius: 50%;
+  background-color: white;
+  padding: 0.3em;
+  margin-right: 0.5em;
+}
+
+.titulo_logo {
+  font-size: 1em;
+  line-height: normal;
+}
+
+.header-date {
+  color: black;
+  margin-left: 20px;
+}
+
+.wide_header {
+  user-select: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 260px);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-menu {
+  height: 60px;
+  margin: 0;
+  line-height: 60px;
+  padding: 0 30px;
+}
+.info-menu li.profile {
+  position: relative;
+}
+
+.info-menu li.profile a img {
+  width: 40px;
+  height: 40px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.profile a.toggle {
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(150, 150, 158, 1);
+  position: relative;
+  padding: 10px 10px 10px 0;
+  margin: 0;
+  background: #f9f9f9;
+  border-radius: 30px;
+}
+
+.profile .jumbotron {
+  border-radius: 3px 3px 0 0;
+}
+.profile .jumbotron h3 {
+  color: white;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  margin-top: 4px;
+  border-color: #fefefe;
+  border-radius: 0;
+  box-shadow: 0px 0px 5px rgba(86, 96, 117, 0.15);
+  -moz-box-shadow: 0px 0px 5px rgba(86, 96, 117, 0.15);
+  -webkit-box-shadow: 0px 0px 5px rgba(86, 96, 117, 0.15);
+}
+.dropdown-menu li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  line-height: 35px;
+}
+.dropdown-menu li a {
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  position: relative;
+  line-height: 30px;
+  width: 100%;
+  border-bottom: 1px solid #f4faf9;
+}
+.dropdown-menu li a i {
+  margin-right: 5px;
+}
+.dropdown-menu li.last a {
+  border-bottom: 0;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  content: "";
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+}
+
+.btn .caret {
+  margin-left: 0;
+}
+.btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+.dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: "Ubuntu";
+  font-style: bold;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

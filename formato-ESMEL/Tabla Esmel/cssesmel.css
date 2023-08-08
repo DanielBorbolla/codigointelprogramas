@@ -1,0 +1,279 @@
+.panel-body{
+    margin: 0;
+    padding: 0;
+}
+/*--tabla principal--*/
+
+table {
+    width: 100%;
+    padding: 0%; 
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.logo {
+    width: 25rem;
+  }
+
+.tamprincipal{
+    width: 40rem; /*--30--*/
+    padding: 2rem;
+}
+.modletra{
+    font-size: 1.9rem;
+}
+.tamaño1{
+    width: 28rem;/*--25--*/
+}
+
+
+
+.tamaño3{
+    width: 20rem;
+}
+
+.inscripcion {
+    color: #4472c4;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+
+.azul{
+    color: white;
+    background: #4472c4;
+    width: 8rem; 
+    height: 4rem;
+    font-size: 2rem;
+}
+.no{
+    font-size: 2rem;
+    width: 17rem; /*--12--*/
+    height: 4rem;
+    text-align: center;
+}
+.fecha{
+    font-size: 2rem;
+    width: 17rem; /*--16--*/
+    height: 4rem;
+    text-align: center;
+}
+/*--tabla secundaria--*/
+.tamletraAlum_Padre{
+    font-size: 1.6rem;
+    background: white; color: black;
+}
+
+
+.tamletrat2{
+    font-size: 1.5rem;
+    background: #4472c4; color: white;
+}
+.datos_T2{
+    width: 16rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+/*--tabla 3--*/
+.color_encabezados_tabla3{
+    background:#4472c4;; 
+    color: white;    
+}
+.noEnca{
+    width: 2rem;
+    font-size: 1.5rem;
+}
+.marEnca{
+    width: 5rem;
+    font-size: 1.5rem;
+}
+.clave_productoEnca{
+    width: 13rem;
+    font-size: 1.5rem;
+}
+.clave_producto{
+    width: 13rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.cursoEnca{
+    width: 17rem;
+    font-size: 1.5rem;
+}
+.curso{
+    width: 17rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.hrssemEnca{
+    width: 8rem;
+    font-size: 1.5rem;
+}
+.hrssem{
+    width: 8rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.lunEnca{
+    width: 5rem;
+    font-size: 1.5rem;
+}
+.lun{
+    width: 5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.marEnca{
+    width: 5rem;
+    font-size: 1.5rem;
+}
+.mar{
+    width: 5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+
+.mierEnca{
+    width: 5rem;
+    font-size: 1.5rem;
+}
+.mier{
+    width: 5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.jueEnca{
+    width: 5rem;
+    font-size: 1.5rem;
+}
+.jue{
+    width: 5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.vierEnca{
+    width: 5rem;
+    font-size: 1.5rem;
+}
+.vier{
+    width: 5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.sabEnca{
+    width: 5rem;
+    font-size: 1.5rem;
+}
+.sab{
+    width: 5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.domEnca{
+    width: 5rem;
+    font-size: 1.5rem;
+}
+.dom{
+    width: 5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.num_semEnca{
+    width:12rem;
+    font-size: 1.5rem;
+}
+.num_sem{
+    width:12rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.pre_quinEnca{
+    width: 10rem;
+    font-size: 1.5rem;
+}
+.pre_quin{
+    width: 10rem;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.boton_agregar{
+    width: 6rem;
+    height: 2rem;
+    background: #4472c4; color: white;
+}
+/*--tabla 4--*/
+.tamletrat4{
+    font-size: 1.5rem;
+    background: #4472c4; color: white;
+}
+.meto{
+    width: 17rem;
+}
+.lugar{
+    width: 17rem;
+}
+.numcuen{
+    width: 17rem;
+}
+.cobranza{
+    width: 17rem;
+}
+/*--Tabla 5--*/
+.colorbordt5{
+    border: white;
+}
+.espaciolínea{
+    width: 20rem;
+    height: 2px;
+    background-color: #4472c4;
+}
+/*--Tabla 6--*/
+.tablatam6{
+    width: 55rem;
+}
+.notes{
+    font-size: 1.5rem;
+}
+.tamtextareat6{
+    width: 55rem;
+    height: 9rem;
+}
+/*--Tabla 7--*/
+.textosT7{
+    text-align: left;
+    font-size: 2rem;
+}
+/*--Botón guardar orden--*/
+.boton_guardar_orden{
+    width: 6rem;
+    height: 2.5rem;
+    background: #4472c4; color: white;
+    margin-left: 50rem;
+}
+
+/*--ajuste de pantalla--*/
+.tablatam1{
+    width: 103rem;
+}
+.tablatam2{
+    width: 103rem;
+}
+.tablatam3{
+    width: 103rem;
+}
+.tablatam4{
+    width: 103rem;
+}
+.tablatam5{
+    width: 103rem;
+}
+.tablatam7{
+    width: 103rem;
+}
+
+
+

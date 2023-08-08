@@ -1,0 +1,282 @@
+.panel-body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 0.01px solid black;
+}
+
+/*ENCABEZADO DE TABLA*/
+.def-logo {
+  width: 35%;
+  height: 10rem;
+  font-size: 1.8rem;
+  margin: 0%;
+  border-radius: 10px;
+  border: solid black 2px;
+}
+
+.imgprin {
+  width: 20rem;
+}
+
+.def-dir {
+  width: 40rem;
+  height: 10rem;
+  border-radius: 10px;
+  border: solid black 2px;
+}
+
+.mar-po {
+  font-size: 1.7rem;
+  margin: 0%;
+}
+
+.def-ord {
+  width: 25%;
+  height: 10rem;
+}
+
+/*Tabla datos*/
+
+.bordered,
+.bor-jun {
+  border: solid black 2px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 10px;
+  border-radius: 12px;
+}
+
+.bor-jun {
+  padding: 0;
+}
+
+.colla {
+  border: none;
+}
+
+.capnom {
+  color: #3173d6f5;
+  font-size: 2.2rem;
+  padding: 5px 0px;
+}
+.number-or {
+  width: 8rem;
+  font-size: 2.5rem;
+  text-align: center;
+  border: white;
+}
+.dateco {
+  width: 11rem;
+  font-size: 1.5rem;
+}
+.def-co {
+  width: 9rem;
+  height: 3.2rem;
+  border-spacing: 0;
+  font-size: 1.2rem;
+}
+
+.def-co1 {
+  background-color: #3173d6f5;
+  color: white;
+}
+
+/*tabla de notas*/
+.notescolor {
+  border-color: white;
+}
+
+.tamnote {
+  width: 45rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  background-color: #3173d6f5;
+  color: white;
+}
+
+.tamnoteb {
+  height: 10rem;
+  background-color: white;
+}
+
+.cota {
+  width: 9rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  background-color: #3173d6f5;
+  color: white;
+}
+
+.cota12 {
+  width: 11rem;
+  height: 2rem;
+}
+.tamtabu {
+  padding-bottom: 5.5rem;
+}
+
+.areanote {
+  width: 45rem;
+  height: 10rem;
+  border: white;
+  font-size: 1.5rem;
+}
+
+.numco {
+  padding: 0%;
+  width: 13rem;
+  text-align: center;
+  font-size: 2rem;
+  border: white;
+}
+
+.canttam {
+  font-size: 1.5rem;
+}
+
+.colorprod {
+  color: white;
+  background-color: #3173d6f5;
+}
+
+.codetam,
+.item {
+  width: 9rem;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.fontbor {
+  border: white;
+  font-size: 1.5rem;
+}
+
+.Customer {
+  background-color: #3173d6f5;
+  color: white;
+}
+
+.Blue-Dates {
+  background-color: #3173d6f5;
+  color: white;
+}
+
+.Tam-Input {
+  width: 12rem;
+  height: 10px;
+  border: white;
+  font-size: 10px;
+}
+
+/*Tabla inputs con datos*/
+
+.in {
+  height: 1.5rem;
+  width: 96%;
+  border: white;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.im {
+  height: 1.5rem;
+  width: 12.5%;
+}
+.tamano {
+  font-size: 2rem;
+}
+/*numero de serie*/
+
+.numerodeserie {
+  background-color: #3173d6f5;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/*Tabla inputs con datos*/
+
+.datosazul {
+  background-color: #3173d6f5;
+  color: white;
+}
+
+.inputbray {
+  font-size: 1rem;
+  border: white;
+  height: 1rem;
+  width: 12rem;
+}
+
+/*inputs producto*/
+.cod1pro{
+  width: 8.5rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.marc1pro{
+  width: 7.2rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.mode1pro{
+  width: 7.6rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.gabi1pro{
+  width: 7.2rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.proce1pro{
+  width: 14rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.gen1pro{
+  width: 4rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.ram1pro{
+  width: 4rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.disco1pro{
+  width: 4rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.tam1pro{
+  width: 4rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.cant1pro{
+  width: 5rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.precio_u_1pro{
+  width: 7rem;
+  text-align: center;
+  height: 1.5rem;
+}
+.importe1pro{
+  width: 7rem;
+  text-align: center;
+  height: 1.5rem;
+}
