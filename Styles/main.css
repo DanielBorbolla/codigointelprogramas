@@ -5,6 +5,24 @@
   margin-top: 25px;
 }
 
+.contenedor_principal{
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page{
+  display: block;
+  width: calc(100% - 250px);
+  margin-top: 65px;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
 .compania-btn {
   border: 1px solid;
   width: 150px;
