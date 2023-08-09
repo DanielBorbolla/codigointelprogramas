@@ -1,5 +1,6 @@
 <body>
     <?php
+    $id_compania = $_SESSION['id_compania'];
     $nombre_compania = $_SESSION['nombre_compania'];
     $logo_compania = $_SESSION['logo_compania'];
     $nombre_usuario = $_SESSION['nombre_usuario'];

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $page_title; ?></title>
+    <title>Nueva Orden de Compra</title>
     <!-- $page_title definida en inicio.php -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
@@ -20,38 +20,20 @@
     <link rel="stylesheet" href="Styles/main.css">
 </head>
 <?php
-$page_title = 'Inicio';
 session_start();
-require('./Main_app/conexion.php');
-if (isset($_GET['id'])) {
-    $id_compania = $_GET['id'];
-} else {
-    header("location: index.php");
-}
-
-try {
-    $consulta_compania = "Select nombre, logo, usuario FROM compania WHERE id=:id_compania";
-    $stmt = $conexion->prepare($consulta_compania);
-    $stmt->bindParam(':id_compania', $id_compania, PDO::PARAM_STR);
-    $stmt->execute();
-    $datos_compania = $stmt->fetch(PDO::FETCH_ASSOC);
-    $nombre_compania = $datos_compania['nombre'];
-    $logo_compania = $datos_compania['logo'];
-    $imagen_usuario = $datos_compania['usuario'];
-    $partes_usuario = explode(".", $imagen_usuario);
-    $nombre_usuario = $partes_usuario[0];
-} catch (PDOException $error) {
-    echo $error->getMessage();
-}
-$_SESSION['id_compania'] = $id_compania;
-$_SESSION['nombre_compania'] = $nombre_compania;
-$_SESSION['nombre_usuario'] = $nombre_usuario;
-$_SESSION['logo_compania'] = $logo_compania;
-$_SESSION['imagen_usuario'] = $imagen_usuario;
-
+require('Main_app/conexion.php');
 require_once "librerias/header.php";
+switch ($id_compania) {
+    case '2':
+        include "New_Order/templates_order/new_order_esmel.php";
+        break;
+    case '1':
+        include "New_Order/templates_order/new_order_grancompu.php";
+        break;
+};
 require_once "librerias/footer.php";
 ?>
+
 
 
 </body>

@@ -1,0 +1,98 @@
+.panel-body{
+  margin: 0;
+  padding:0;
+  
+}
+
+table{
+  width: 100%;
+  font-family:'Courier New', Courier, monospace;
+  border-collapse: collapse ;
+}
+
+table, th, td {
+  background-color: #e9ecef;
+  color: #080707;
+  border: 0.8px solid;
+  border-color: black;
+  padding: 0%;
+  font-size: .9rem; 
+}
+/* Encabezado*/
+.logo-1{
+  width: 10rem;
+  height: 5rem;
+}
+
+.tam-h4{
+  width: 15rem;
+  height: 5rem;
+}
+
+.tam-t2{
+  width: 100%;
+  height: 5rem;
+  padding: 0;
+}
+
+.inscrip{
+  width: 4rem;
+  height: 2rem;
+  padding: 0%;
+  margin: 0%;
+}
+
+.inscrip-1{
+  width: 6rem;
+  height: 2rem;
+}
+/* FIN Encabezado*/
+/*TABLA INFORMACIÓN*/
+
+
+.inicio-info{
+  width: 20rem;
+  height: 1.8rem;
+}
+.tptm{
+  width: 8.2rem;
+}
+
+.t1a{
+  width: 10px;
+}
+
+.t1a2{
+  width: 5rem;
+}
+
+.t1a3{
+  width: 12rem;
+}
+
+/*FIN TABLA INFORMACIÓN*/
+
+.tcr-1{
+  width: 8rem;
+}
+
+.color-b{
+  border-color: white;
+}
+
+.tamaño-10{
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 20rem;
+  }
+
+  .aumento{
+    height: 8rem;
+    width: 10rem;
+  }
+
+  .padd756{
+    width: 20rem;
+  }
+
+ 
