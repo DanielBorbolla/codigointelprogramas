@@ -34,7 +34,48 @@ switch ($id_compania) {
 require_once "librerias/footer.php";
 ?>
 
+<script>
+    $(document).ready(function() {
+        console.log("event")
+        $(document).on('input', '.item_row', function(event) {
+            var row = $(this).closest('tr');
+            var inputsInRow = row.find('.item_row');
+            var item_inputs = []; // Variable para almacenar los valores
+            inputsInRow.each(function() {
+                item_inputs.push($(this).val()); // Agregar valor a la variable
+            });
+            if (!item_inputs.includes('')) {
+                var newRow = $(this).closest(".item").clone(); // Clona la fila actual
+                newRow.find("input").val(""); // Borra los valores de los inputs clonados
 
+                var numRows = $(".table-items tr.item").length;
+                newRow.find(".item-num").text(numRows + 1); // Actualiza el número de la fila
+
+                $(".table-items").append(newRow); // Agrega la nueva fila clonada 
+            }
+            $('#saveOrder').click(function() {
+
+                var jsonDataArray = [];
+
+                $('.table-items .item').each(function(index, row) {
+                    var jsonData = {};
+
+                    $(row).find('input').each(function() {
+                        var inputName = $(this).attr('input_item_name');
+                        var inputValue = $(this).val();
+                        jsonData[inputName] = inputValue;
+                    });
+
+                    jsonDataArray.push(jsonData);
+                });
+                var jsonString = JSON.stringify(jsonDataArray);
+                console.log(jsonDataArray);
+            });
+
+        });
+
+    });
+</script>
 
 </body>
 

@@ -69,4 +69,14 @@
 
         </div>
     </header>
-    <?php require_once 'usuario_menu.php';?>
+    <div class="main_body">
+        <div class="contenedor_sidebar">
+
+            <div class="sidebar">
+                <?php require_once 'usuario_menu.php'; ?>
+            </div>
+        </div>
+
+        <div class="page">
+
+            <div class="contenedor_principal">

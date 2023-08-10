@@ -262,7 +262,7 @@
 
 <div class="container">
   <div class="panel-body">
-    <div class="m-2 p-3">
+    <div>
 
       <!-- ---------------TABLA ENCABEZADO--------------------- -->
       <div>
@@ -420,7 +420,7 @@
 
 
           <br>
-          <table class="tableartics"> <!--tabla producto-->
+          <table class="tableartics table-items"> <!--tabla producto-->
             <tr class="colorprod">
               <th class="vg-cor tablenum">No</th>
               <th class="vg-cor tablecod">Clave Producto</th>
@@ -437,19 +437,19 @@
               <th class="vg-cor tableimp">Precio Quincenal</th>
             </tr>
             <tr class="item">
-              <td class="cursenum">1234</td>
-              <td class="tablecod"><input value="" class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablemarc"><input value='' class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablemod"><input value="" class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablegab"><input value="" class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablepro"><input value="" class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablegen"><input value="" class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tableram"><input value='' class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tabledisk"><input value='' class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tabletam12"><input value='' class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablecant"><input value="" class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tableprec"><input value="" class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tableimp"><input value="" class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
+              <td class="item-num">1</td>
+              <td class="tablecod"><input input_item_name="Clave_Producto" value="" class="fontbor input1 item_row"></td>
+              <td class="tablemarc"><input input_item_name="Curso" value='' class="fontbor input1 item_row"></td>
+              <td class="tablemod"><input input_item_name="Duracion" value="" class="fontbor input1 item_row"></td>
+              <td class="tablegab"><input input_item_name="Lun" value="" class="fontbor input1"></td>
+              <td class="tablepro"><input input_item_name="Mar" value="" class="fontbor input1"></td>
+              <td class="tablegen"><input input_item_name="Mie" value="" class="fontbor input1"></td>
+              <td class="tableram"><input input_item_name="Jue" value='' class="fontbor input1"></td>
+              <td class="tabledisk"><input input_item_name="Vie" value='' class="fontbor input1"></td>
+              <td class="tabletam12"><input input_item_name="Sab" value='' class="fontbor input1"></td>
+              <td class="tablecant"><input input_item_name="Dom" value="" class="fontbor input1"></td>
+              <td class="tableprec"><input input_item_name="Numero_Semanas" value="" class="fontbor input1 item_row"></td>
+              <td class="tableimp"><input input_item_name="Precio_Quincenal" value="" class="fontbor input1 item_row"></td>
             </tr>
           </table>
           <!-- -----tabla PAGOS------ -->
@@ -468,27 +468,27 @@
               <td class="tablecod">Banco</td>
               <td class="tablemarc">Administración</td>
               <td class="color-tabla-datos tablemod">Tarjeta bancaria</td>
-              <td class="tablegab"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablepro"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablepro"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
+              <td class="tablegab"><input class="fontbor input1"></td>
+              <td class="tablepro"><input class="fontbor input1"></td>
+              <td class="tablepro"><input class="fontbor input1"></td>
             </tr>
             <tr>
               <td class="color-tabla-datos tablenum">Efectivo plantel</td>
-              <td class="tablecod"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablemarc"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
+              <td class="tablecod"><input class="fontbor input1"></td>
+              <td class="tablemarc"><input class="fontbor input1"></td>
               <td class="color-tabla-datos tablemod">Transferencia bancaria</td>
-              <td class="tablegab"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablepro"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablepro"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
+              <td class="tablegab"><input class="fontbor input1"></td>
+              <td class="tablepro"><input class="fontbor input1"></td>
+              <td class="tablepro"><input class="fontbor input1"></td>
             </tr>
             <tr>
               <td class="color-tabla-datos tablenum">Efectivo banco</td>
-              <td class="tablecod"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablemarc"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
+              <td class="tablecod"><input class="fontbor input1"></td>
+              <td class="tablemarc"><input class="fontbor input1"></td>
               <td class="color-tabla-datos tablemod">Pago contado</td>
-              <td class="tablegab"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablepro"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
-              <td class="tablepro"><input class="fontbor input1 item_row" onkeypress="addrow(event)"></td>
+              <td class="tablegab"><input class="fontbor input1"></td>
+              <td class="tablepro"><input class="fontbor input1"></td>
+              <td class="tablepro"><input class="fontbor input1"></td>
             </tr>
             </tr>
           </table>
