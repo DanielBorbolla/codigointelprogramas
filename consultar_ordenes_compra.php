@@ -45,7 +45,7 @@ require_once "librerias/header.php";
         </div>
 
         <div>
-          <a style="height: fit-content;" href="http://localhost/codigograncompu/new_orden_compra.php" class=" btn btn-info pull-right">+ Nueva Orden de Compra</a>
+          <a style="height: fit-content;" href="http://localhost/codigointelprogramas/new_orden_compra.php" class=" btn btn-info pull-right">+ Nueva Orden de Compra</a>
         </div>
       </div>
     </div>

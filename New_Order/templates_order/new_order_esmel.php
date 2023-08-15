@@ -286,7 +286,7 @@
                 <th class="eliwcol">
                   <table class="tablerad">
                     <th class="def-logo bor-jun esp-2" colspan="2">
-                      <img class="imgprin" src="http://localhost/codigograncompu/img/logoEsmel.jpg" alt="LOGO ESMEL">
+                      <img class="imgprin" src="http://localhost/codigointelprogramas/img/logoEsmel.jpg" alt="LOGO ESMEL">
                     </th>
                   </table>
                 </th>

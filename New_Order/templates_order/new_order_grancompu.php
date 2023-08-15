@@ -20,7 +20,7 @@
               </th>
               <th class="bor-jun">
                 <div>
-                  <img class="logo_m" src="Adjuntos/Empresas/INTELPROGRAMAS/737656.jpeg" style="max-width:90%; max-height:90%; object-fit: contain;" alt="LOGO">
+                  <img class="logo_m" src="http://localhost/codigointelprogramas/img/grancompu_logo.jpg" style="max-width:90%; max-height:90%; object-fit: contain;" alt="LOGO">
                 </div>
               </th>
               <th class="bor-jun">

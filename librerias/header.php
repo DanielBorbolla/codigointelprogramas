@@ -14,7 +14,7 @@
         <div class="logo pull-md-right pull-xl-right pull-lg-right pull-sm-right pull-xs-right">
 
 
-            <img src="http://localhost/codigograncompu/img/<?php echo $logo_compania; ?>" height="60" width="60" alt="<?php echo $nombre_compania; ?>">
+            <img src="http://localhost/codigointelprogramas/img/<?php echo $logo_compania; ?>" height="60" width="60" alt="<?php echo $nombre_compania; ?>">
 
             <span class="titulo_logo"><?php echo $nombre_compania; ?></span>
         </div>
@@ -39,7 +39,7 @@
                     <li class="profile">
                         <a href="#" data-toggle="dropdown" class="toggle menu_user" aria-expanded="false">
                             <picture>
-                                <img src="http://localhost/codigograncompu/img/<?php echo $imagen_usuario; ?>" alt="imagen_usuario" class="img-circle img-inline">
+                                <img src="http://localhost/codigointelprogramas/img/<?php echo $imagen_usuario; ?>" alt="imagen_usuario" class="img-circle img-inline">
                             </picture>
                             <span>
                                 <font color="White">---</font>
@@ -52,13 +52,13 @@
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="#">
-                                    <img src="http://localhost/codigograncompu/img/gear-solid.svg" alt="Configuración" class="icon glyphicon">
+                                    <img src="http://localhost/codigointelprogramas/img/gear-solid.svg" alt="Configuración" class="icon glyphicon">
                                     Configuración
                                 </a>
                             </li>
                             <li class="last">
-                                <a href="http://localhost/codigograncompu">
-                                    <img src="http://localhost/codigograncompu/img/power-off-solid.svg" alt="salir" class="icon glyphicon">
+                                <a href="http://localhost/codigointelprogramas">
+                                    <img src="http://localhost/codigointelprogramas/img/power-off-solid.svg" alt="salir" class="icon glyphicon">
                                     Salir
                                 </a>
                             </li>

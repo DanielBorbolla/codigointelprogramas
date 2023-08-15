@@ -80,7 +80,7 @@
       </a>
       <ul class="nav submenu menu_slide_8">
 
-        <li><a href="http://localhost/codigograncompu/consultar_ordenes_compra.php">Ordenes de Compra</a> </li>
+        <li><a href="http://localhost/codigointelprogramas/consultar_ordenes_compra.php">Ordenes de Compra</a> </li>
       </ul>
     </li>
   </ul>
