@@ -53,26 +53,26 @@ require_once "librerias/footer.php";
 
                 $(".table-items").append(newRow); // Agrega la nueva fila clonada 
             }
-            $('#saveOrder').click(function() {
-
-                var jsonDataArray = [];
-
-                $('.table-items .item').each(function(index, row) {
-                    var jsonData = {};
-
-                    $(row).find('input').each(function() {
-                        var inputName = $(this).attr('input_item_name');
-                        var inputValue = $(this).val();
-                        jsonData[inputName] = inputValue;
-                    });
-
-                    jsonDataArray.push(jsonData);
-                });
-                var jsonString = JSON.stringify(jsonDataArray);
-                console.log(jsonDataArray);
-            });
-
         });
+        $('#saveOrder').click(function() {
+
+            var jsonDataArray = [];
+
+            $('.table-items .item').each(function(index, row) {
+                var jsonData = {};
+
+                $(row).find('input').each(function() {
+                    var inputName = $(this).attr('input_item_name');
+                    var inputValue = $(this).val();
+                    jsonData[inputName] = inputValue;
+                });
+
+                jsonDataArray.push(jsonData);
+            });
+            var jsonString = JSON.stringify(jsonDataArray);
+            console.log(jsonDataArray);
+        });
+
 
     });
 </script>

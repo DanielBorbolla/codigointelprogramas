@@ -79,7 +79,7 @@
 
   .dateco {
     width: 11rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .def-co {
@@ -97,7 +97,7 @@
   .tablerad {
     border-collapse: separate;
     border-spacing: 10;
-    border: 3px solid black;
+
     border-radius: 15px;
     -moz-border-radius: 20px;
     padding: 0px;
@@ -118,7 +118,7 @@
   .borde-redondeado-tabla {
     background-color: #ffffff;
     border-collapse: separate;
-    border-spacing: 10;
+
     border: 5px solid black;
     border-radius: 15px;
     -moz-border-radius: 20px;
@@ -175,7 +175,7 @@
 
   .tableartics {
     border-collapse: separate;
-    border-spacing: 10;
+
     border: 4px solid black;
     border-radius: 15px;
     -moz-border-radius: 20px;
@@ -300,12 +300,12 @@
 
                         <tr>
                           <th class="def-co def-co1">NO.</th>
-                          <td class="def-co"><input class="number-or" value="1012">
+                          <td class="def-co"><input id="no-inscripcion" class="number-or" value="1012">
                     </th>
               </tr>
               <tr>
                 <th class="def-co def-co1">FECHA</td>
-                <td class="def-co"><input class="dateco" type="date"></td>
+                <td class="def-co"><input id="fecha" class="dateco" type="date"></td>
               </tr>
           </table>
           </th>
@@ -324,45 +324,45 @@
                   </tr>
                   <tr>
                     <th class="dat-azul" scope="row">Alumno</th>
-                    <td><input class="input-tabladatos" value="PN CALIFORNIA"></td>
+                    <td><input class="input-tabladatos" id="Alumno" value="PN CALIFORNIA"></td>
                     <th class="dat-azul" scope="row">Matricula</th>
-                    <td><input class="input-tabladatos" value="PARMOND JAIN"></td>
+                    <td><input class="input-tabladatos" id="Matricula" value="PARMOND JAIN"></td>
                   </tr>
                   <tr>
                     <th class="dat-azul">Nombre</th>
-                    <td><input class="input-tabladatos" value="SOMERESE BLD"></td>
+                    <td><input class="input-tabladatos" id="Nombre" value="SOMERESE BLD"></td>
                     <th class="dat-azul">Apellido</th>
-                    <td><input class="input-tabladatos" value="9016"></td>
+                    <td><input class="input-tabladatos" id="Apellido-Alumno" value="9016"></td>
                   </tr>
                   <tr>
                     <th class="dat-azul">Calle</th>
-                    <td><input class="input-tabladatos" value="BELLFLOWER"></td>
+                    <td><input class="input-tabladatos" id="Calle_Alumno" value="BELLFLOWER"></td>
                     <th class="dat-azul">Número</th>
-                    <td><input class="input-tabladatos" value=""></td>
+                    <td><input class="input-tabladatos" id="Numero_Alumno" value=""></td>
                   </tr>
                   <tr>
                     <th class="dat-azul">Municipio</th>
-                    <td><input class="input-tabladatos" value="CALIFORNIA"></td>
+                    <td><input class="input-tabladatos" id="Municipio_Alumno" value="CALIFORNIA"></td>
                     <th class="dat-azul">Colonia</th>
-                    <td><input class="input-tabladatos" value="90706"></td>
+                    <td><input class="input-tabladatos" id="Colonia_Alumno" value="90706"></td>
                   </tr>
                   <tr>
                     <th class="dat-azul">C. Postal</th>
-                    <td><input class="input-tabladatos" value="SALES@PNCALIFORNIA"></td>
+                    <td><input class="input-tabladatos" id="CP_Alumno" value="SALES@PNCALIFORNIA"></td>
                     <th class="dat-azul">Estado</th>
-                    <td><input class="input-tabladatos" value="USA"></td>
+                    <td><input class="input-tabladatos" id="Estado_Alumno" value="USA"></td>
                   </tr>
                   <tr>
                     <th class="dat-azul">Correo</th>
-                    <td><input class="input-tabladatos" value="562 866 8581"></td>
+                    <td><input class="input-tabladatos" id="Correo_Alumno" value="562 866 8581"></td>
                     <th class="dat-azul">Celular</th>
-                    <td><input class="input-tabladatos" value="562 418 5474"></td>
+                    <td><input class="input-tabladatos" id="Celular_Alumno" value="562 418 5474"></td>
                   </tr>
                   <tr>
                     <th class="dat-azul">CURP</th>
-                    <td></td>
+                    <td><input class="input-tabladatos" id="Curp_Alumno" value="562 418 5474"></td>
                     <th class="dat-azul">Fecha Nacimiento</th>
-                    <td></td>
+                    <td><input type="date" class="input-tabladatos" id="FechaNacimiento_Alumno"></td>
                   </tr>
                 </table>
               </th>
@@ -373,45 +373,45 @@
                   </tr>
                   <tr>
                     <th class="dat-azul" scope="row">Padre</th>
-                    <td><input value="PHOTONIC INC" class="input-tabladatos"></td>
-                    <th class="dat-azul" scope="row">Matricula</th>
-                    <td><input value="JORGE DE LA CRUZ" class="input-tabladatos"></td>
+                    <td><input id="Padre" value="PHOTONIC INC" class="input-tabladatos"></td>
+                    <th class="dat-azul" scope="row">Apellido</th>
+                    <td><input id="Apellido_Padre" value="JORGE DE LA CRUZ" class="input-tabladatos"></td>
                   </tr>
                   <tr>
                     <th class="dat-azul">Telefono</th>
-                    <td><input value="ADUANALES" class="input-tabladatos"></td>
-                    <th class="dat-azul">Apellido</th>
-                    <td><input value="1907" class="input-tabladatos"></td>
+                    <td><input id="Telefono_Padre" value="ADUANALES" class="input-tabladatos"></td>
+                    <th class="dat-azul">Email</th>
+                    <td><input id="Email_Padre" value="1907" class="input-tabladatos"></td>
                   </tr>
                   <tr></tr>
                   <th class="dat-azul">Madre</th>
-                  <td><input value="LAREDO" class="input-tabladatos"></td>
-                  <th class="dat-azul">Número</th>
-                  <td><input value="WEBB" class="input-tabladatos"></td>
+                  <td><input id="Madre" value="LAREDO" class="input-tabladatos"></td>
+                  <th class="dat-azul">Apellido</th>
+                  <td><input id="Apellido_Madre" value="WEBB" class="input-tabladatos"></td>
             </tr>
             <tr>
               <th class="dat-azul">Télefono</th>
-              <td><input value="TEXAS" class="input-tabladatos"></td>
-              <th class="dat-azul">Colonia</th>
-              <td><input value="78041" class="input-tabladatos"></td>
+              <td><input id="Telefono_Madre" value="TEXAS" class="input-tabladatos"></td>
+              <th class="dat-azul">Email</th>
+              <td><input id="Email_Madre" value="78041" class="input-tabladatos"></td>
             </tr>
             <tr>
-              <th class="dat-azul">C. Postal</th>
-              <td><input value="JCRUZ@CLUBINTER.NET" class="input-tabladatos"></td>
-              <th class="dat-azul">Estado</th>
-              <td><input value="USA" class="input-tabladatos"></td>
+              <th class="dat-azul">Patrocinador</th>
+              <td><input id="Patrocinador" value="JCRUZ@CLUBINTER.NET" class="input-tabladatos"></td>
+              <th class="dat-azul">Apellido</th>
+              <td><input id="Apellido_Patrocinador" value="USA" class="input-tabladatos"></td>
             </tr>
             <tr>
-              <th class="dat-azul">Correo</th>
-              <td><input value="956 722 3326" class="input-tabladatos"></td>
-              <th class="dat-azul">Celular</th>
-              <td><input value="956 693 044" class="input-tabladatos"></td>
+              <th class="dat-azul">Telefono</th>
+              <td><input id="Telefono_Patrocinador" value="956 722 3326" class="input-tabladatos"></td>
+              <th class="dat-azul">Email</th>
+              <td><input id="Email_Patrocinador" value="956 693 044" class="input-tabladatos"></td>
             </tr>
             <tr>
-              <th class="dat-azul">Curp</th>
-              <td><input value="" class="input-tabladatos"></td>
-              <th class="dat-azul">Fecha Nacimiento</th>
-              <td><input value="" class="input-tabladatos"></td>
+              <th class="dat-azul"></th>
+              <td><input id="Curp_Tutor" value="" class="input-tabladatos"></td>
+              <th class="dat-azul"></th>
+
             </tr>
           </table>
           </th>
